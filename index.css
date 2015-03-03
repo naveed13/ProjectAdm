@@ -1,0 +1,89 @@
+body {
+  /*font-weight: bold;*/
+  background-image: url(concierge-service.jpg);
+}
+
+header{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Monotype Corsiva;
+}
+
+button {
+  height: 100px;
+  width:  100px;
+  border-radius:  100px;
+  border: 2px solid white;
+  padding:  10px;
+  margin-top: 20px;
+  margin-left: 35px;
+  background-color: #B2B2B2;
+  font-family: Monotype Corsiva;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#game{
+  background-color: #ff6666;
+}
+
+#mapOfLoc{
+  height: 300px;
+  width:  500px;
+  padding-top: 50px;
+  margin-left: 500px;
+  margin-top: -450px;
+}
+
+#name{
+  margin-top: 50px;
+  margin-left: 500px;
+  color: #CCCCCC;
+  font-size: 15px;
+}
+
+#address{
+  margin-left: 500px;
+  color: #CCCCCC;
+  font-size: 15px;
+}
+
+.add{
+  margin-left: 30px;
+}
+
+#rating{
+  margin-left: 500px;
+  color: #CCCCCC;
+  font-size: 15px;
+}
+
+#gameOut{
+  margin-left: 500px;
+  color: #CCCCCC;
+  font-size: 15px;
+}
+
+#replaced{
+  margin-left: 500px;
+  color: #CCCCCC;
+  font-size: 15px;
+}
+
+#counter{
+  margin-left: 500px;
+  color: #CCCCCC;
+  font-size: 15px;
+}
+
+#reverse{
+  margin-left: 500px;
+  color: #CCCCCC;
+  font-size: 15px;
+}
+footer{
+  text-align: center;
+  font-family: Monotype Corsiva;
+}
