@@ -38,7 +38,7 @@ function gameTicTacToe(){
   updateMoves();
   createBoard();
   checkVictory()
- };
+};
 
 /**
 * function userTurn() will get the input from the user and check if the user input
@@ -70,15 +70,20 @@ function userTurn(){
 * it will be displayed on the page.
 */
 
-function createBoard(){
+createBoard = function (){
   var out ="";
   gameResult = document.getElementById('gameOut');
   for(var i =0; i < board.length; i++){
     out+=board[i].join(' ')+ '</br>';
   }
-  gameResult.textContent = out;
+  //gameResult.textContent = out;
+  gameResult.innerHTML = out;
   return out;
 };
+
+// Use JQUERY to update selectors and EACH statements
+// Style text boxes and some text with HTML/CSS
+
 
 /**
 * function computerTurn generates a random number from the available
