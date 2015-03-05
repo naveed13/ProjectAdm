@@ -27,6 +27,8 @@ button {
 
 #game{
   background-color: #ff6666;
+  border: 2px solid white;
+  font-size: 20px;
 }
 
 #mapOfLoc{
@@ -62,8 +64,14 @@ button {
 
 #gameOut{
   margin-left: 500px;
+  margin-right: 650px;
   color: #CCCCCC;
-  font-size: 15px;
+  background-color: #ff6666;
+  /*border: 2px solid white;*/
+  border-radius: 10px;
+  font-size: 20px;
+  color:black;
+  text-align: center;
 }
 
 #replaced{
